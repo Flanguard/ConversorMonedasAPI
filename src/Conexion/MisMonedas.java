@@ -1,2 +1,4 @@
-package Conexion;public record MisMonedas() {
+package Conexion;
+
+public record MisMonedas() {
 }
