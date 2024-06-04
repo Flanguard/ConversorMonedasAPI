@@ -8,7 +8,7 @@ public class Principal {
         Scanner keyboard = new Scanner(System.in);
         boolean trueFalse = true;
         dependencia dependencia = new dependencia();
-
+        int opcion;
         //Variable del menu
         String menu = """
                     Bienvenido al conversor de monedas\n
@@ -22,31 +22,20 @@ public class Principal {
                     """;
 
         //Iniciar el programa
-        while(trueFalse) {
+        while(true) {
             System.out.println(menu);
             System.out.println("Cual opcion elige?");
-
             while(!keyboard.hasNextInt()){
-                System.out.println("""
-                    Bienvenido al conversor de monedas\n
-                    **********************************
-                    1) Peso Dominicano a Dolar Estadounidense
-                    2) Dolar Estadounidense a Peso Dominicano
-                    3) Peso Dominicano a Euros
-                    4) Euro a Peso Dominicano
-                    5) Salir
-                    **********************************
-                    """);
-                System.out.println("Cual opcion elige?");
+                System.out.println(menu);
                 keyboard.next();
             }
-            int opcion = keyboard.nextInt();
-
+            opcion = keyboard.nextInt();
+            if (opcion  >= 5 || opcion <=0){
+                break;
+            }
             //LLamar a la dependencia
             System.out.println(dependencia.lanzar(opcion));
-            if (opcion  >= 5 || opcion <=0){
-                trueFalse = false;
-            }
+
         }
     }
 }

@@ -8,6 +8,8 @@ import java.net.http.HttpResponse;
 
 public class ConectarAPI {
     public MisMonedas obtenerApi(String moneda){
+        /*Todo lo relacionado con el cliente-servidor
+        Aqui estan todas sus clases correspondiente para conectar con la API*/
         String guardarApi = "https://v6.exchangerate-api.com/v6/6af216db4bf551cfe47c9c94/latest/"+moneda;
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder().
