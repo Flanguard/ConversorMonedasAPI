@@ -15,9 +15,9 @@ public class CrearArchivos {
             .setPrettyPrinting()
             .create();
     public CrearArchivos(List<GuardarDatos> guardarDatos) throws IOException {
-        FileWriter escritura = new FileWriter("monedas.json");
-        escritura.write(gson.toJson(guardarDatos));
-        escritura.close();
+        FileWriter createJson = new FileWriter("monedas.json");
+        createJson.write(gson.toJson(guardarDatos));
+        createJson.close();
     }
 }
 

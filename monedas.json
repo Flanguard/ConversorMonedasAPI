@@ -1,8 +1,8 @@
 [
   {
     "TipoCambio": "Peso Dominicano a Dolar",
-    "Cambio_Hacia": "USD",
     "Cambio_Desde": "DOP",
+    "Cambio_Hacia": "USD",
     "DineroIngresado": 1000.0,
     "TotalConvertido": 16.91
   }

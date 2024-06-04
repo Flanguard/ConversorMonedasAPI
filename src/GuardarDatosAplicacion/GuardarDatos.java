@@ -2,8 +2,8 @@ package GuardarDatosAplicacion;
 
 public class GuardarDatos {
     private String tipoCambio;
-    private String cambio_Hacia;
     private String cambio_Desde;
+    private String cambio_Hacia;
     private Double dineroIngresado;
     private Double totalConvertido;
 
