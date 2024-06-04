@@ -3,8 +3,32 @@
     "TipoCambio": "Peso Dominicano a Dolar",
     "Cambio_Desde": "DOP",
     "Cambio_Hacia": "USD",
-    "DineroIngresado": 100000.0,
-    "TotalConvertido": 1691.0,
-    "Fecha": "17:57:57.276598300"
+    "DineroIngresado": 5000000.0,
+    "TotalConvertido": 84550.0,
+    "Fecha": "18:26:39.537225500"
+  },
+  {
+    "TipoCambio": "Dolar a Peso Dominicano",
+    "Cambio_Desde": "USD",
+    "Cambio_Hacia": "DOP",
+    "DineroIngresado": 2.3232323E7,
+    "TotalConvertido": 1.37352513778E9,
+    "Fecha": "18:27:13.475348600"
+  },
+  {
+    "TipoCambio": "Euro a Peso Dominicano",
+    "Cambio_Desde": "EUR",
+    "Cambio_Hacia": "DOP",
+    "DineroIngresado": 34234.0,
+    "TotalConvertido": 2195864.62,
+    "Fecha": "18:27:18.285964600"
+  },
+  {
+    "TipoCambio": "Peso Dominicano a Dolar",
+    "Cambio_Desde": "DOP",
+    "Cambio_Hacia": "USD",
+    "DineroIngresado": 1000.0,
+    "TotalConvertido": 16.91,
+    "Fecha": "18:28:21.789477200"
   }
 ]

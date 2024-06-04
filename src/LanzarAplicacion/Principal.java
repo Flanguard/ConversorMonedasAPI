@@ -6,7 +6,6 @@ public class Principal {
     public static void main(String[] args) throws IOException {
         //Variables para pasar a la clase dependencia
         Scanner keyboard = new Scanner(System.in);
-        boolean trueFalse = true;
         dependencia dependencia = new dependencia();
         int opcion;
         //Variable del menu
@@ -35,7 +34,6 @@ public class Principal {
             }
             //LLamar a la dependencia
             System.out.println(dependencia.lanzar(opcion));
-
         }
     }
 }
