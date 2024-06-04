@@ -23,6 +23,9 @@ public class dependencia {
     ConectarAPI conectarApi = new ConectarAPI();
     double guardarCalculo;
 
+    //Variable para guardar el tiempo
+    LocalTime localTime = LocalTime.now();
+    String tiempo = String.valueOf(localTime);
 
 
     //Aqui se selecciona una opcion y se hacen los calculos correspondientes.
@@ -36,9 +39,11 @@ public class dependencia {
             }
             conversion = teclado.nextDouble();
 
+
             //Variable para guardar el tiempo
-            LocalTime localTime = LocalTime.now();
-            String tiempo = String.valueOf(localTime);
+            localTime = LocalTime.now();
+            tiempo = String.valueOf(localTime);
+
             switch (opcion) {
                 case 1:
                     monedas = conectarApi.obtenerApi("DOP").conversion_rates();
